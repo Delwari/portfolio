@@ -1,23 +1,35 @@
-html {
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.title {
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.master {
+    display: flex;
+    align-items: center;
+}
+
+.master__title {
     font-family: 'Krona One', sans-serif;
     font-style: normal;
     font-size: 36px;
     line-height: 56px;
-    color: #F6F6F6;
+    
 }
 
-.title > span {
+.title__strong {
     color: #22D4FD;
 }
 
-.content {
+.master__content {
     font-weight: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 24px;
     line-height: 36px;
-    color: #F6F6F6;
 }
