@@ -6,14 +6,19 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
+header {
+    margin: 5% 0 0 15%; 
+}
+
 .navagation {
-    margin: 5% 15% 0%;
+    display: flex;
+    gap: 7%;
 }
 
 .navagation > a {
@@ -22,7 +27,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    margin-right: 7%;
 }
 
 .master {
@@ -112,7 +116,6 @@ body {
 }
 
 footer {
-    width: 100%;
     background-color: #22D4FD;
 }
 
@@ -122,5 +125,5 @@ footer > p {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
-    padding: 24px 0;
+    padding: 24px;
 }
