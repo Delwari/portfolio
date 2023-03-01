@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+    margin: 37px 95px 0 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header > .name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+header > .profission {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header > img {
+    border-radius: 100%;
+    width: 72px;
+    height: 72px;
+}

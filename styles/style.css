@@ -29,6 +29,10 @@ header {
     font-size: 24px;
 }
 
+.navagation__challenge {
+    font-weight: bold;
+}
+
 .master {
     margin: 7% 15% 10%;
     display: flex;
