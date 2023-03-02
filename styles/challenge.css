@@ -1,25 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 header {
+    border-top: 5px solid black;
+    padding-top: 33px;
     margin: 37px 95px 0 48px;
     display: flex;
     justify-content: space-around;
 }
 
-header > .name {
+.header__tittles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__tittles__tittle {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
 
-header > .profission {
+.header__tittles__subtittle {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-header > img {
+.header__img {
     border-radius: 100%;
     width: 72px;
     height: 72px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 38px 95px 0 48px; 
+
+}
+
+.main__tittle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #455473;
+}
+
+.main__experience {
+
+}
+
+.main__contact {
+    font-size: 11px;
 }
