@@ -3,45 +3,32 @@
 body {
     background-color: #ffffff;
     color: #000000;
+    border-top: 5px solid black;
+    margin: 10px 95px 0 48px;
+    Width: 595px;
+    Height: 842px;
 }
 
 header {
-    border-top: 5px solid black;
     padding-top: 33px;
     margin: 37px 95px 0 48px;
-    display: flex;
-    justify-content: space-around;
 }
 
-.header__tittles {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.header__tittles__tittle {
+.header__tittle {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.header__tittles__subtittle {
+.header__subtittle {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-.header__img {
-    border-radius: 100%;
-    width: 72px;
-    height: 72px;
-}
-
 main {
-    display: flex;
-    justify-content: space-around;
-    margin: 38px 95px 0 48px; 
-
+    margin: 37px 95px 0 48px;
 }
 
 .main__tittle {
@@ -51,12 +38,38 @@ main {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #455473;
+    margin-bottom: 8px;
+}
+
+.main__experience__tittle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    height: 18px;
+}
+
+.main__experience__company {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    height: 18px;
+}
+
+.main__experience__date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    height: 18px;
+}
+
+.main__experience__description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    height: 18px;
+    width: 333px;
 }
 
 .main__experience {
-
-}
-
-.main__contact {
-    font-size: 11px;
+    margin-bottom: 30px;
 }
