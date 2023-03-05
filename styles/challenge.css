@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+ol, ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
@@ -90,14 +94,19 @@ main {
     font-weight: 400;
 }
 
-.aside__contact {
+.aside__contact__list {
     font-weight: 400;
     font-size: 11px;
     line-height: 18px;
-    gap: 2px;
 }
 
-.aside__knowledge {}
+li {
+    margin-bottom: 2px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
 
 .aside__knowledge__tittle {
     font-weight: 400;
@@ -108,7 +117,68 @@ main {
     margin-bottom: 8px;
 }
 
-.aside__knowledge>p {
+.aside__knowledge__list {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.aside__knowledge__list > li {
+    margin-bottom: 2px;
+    line-height: 18px;
+}
+
+.aside__knowledge__list > li:last-child {
+    margin-bottom: 0;
+}
+
+.aside__tools__tittle {
+    font-weight: 400;
     font-size: 8px;
-    gap: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #455473;
+    margin-bottom: 8px;
+}
+
+.aside__tools__itens {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.aside__skills__tittle {
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #455473;
+    margin-bottom: 8px;
+}
+
+.aside__skills_itens {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.aside__social__tittle {
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #455473;
+    margin-bottom: 8px;
+}
+
+.aside__social__links {
+    
+}
+
+.aside__social__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
 }
