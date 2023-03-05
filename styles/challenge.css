@@ -1,75 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #000000;
     border-top: 5px solid black;
     margin: 10px 95px 0 48px;
-    Width: 595px;
-    Height: 842px;
+    width: 595px;
+    height: 842px;
 }
 
 header {
+    display: flex;
     padding-top: 33px;
     margin: 37px 95px 0 48px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header__tittle {
-    font-family: 'Roboto', sans-serif;
+.header__tittles {
+    line-height: 28px;
+}
+
+.header__tittles__tittle {
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 10px;
 }
 
-.header__subtittle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+.header__tittles__subtittle {
     font-size: 18px;
+    font-weight: 400;
+}
+
+img {
+    width: 78px;
+    height: 78px;
+    border-radius: 100%;
 }
 
 main {
-    margin: 37px 95px 0 48px;
+    display: flex;
+    margin: 37px 48px 0 48px;
 }
 
-.main__tittle {
-    font-family: 'Roboto', sans-serif;
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    gap: 16px;
+}
+
+.experience__tittle {
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #455473;
+    font-weight: 400;
+}
+
+.experience__subtittle {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.experience__company {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.experience__date {
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.experience__description {
+    font-size: 11px;
+    width: 333px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.aside__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+}
+
+.aside__contact {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    gap: 2px;
+}
+
+.aside__knowledge {}
+
+.aside__knowledge__tittle {
     font-weight: 400;
     font-size: 8px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #455473;
     margin-bottom: 8px;
 }
 
-.main__experience__tittle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 11px;
-    height: 18px;
-}
-
-.main__experience__company {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    height: 18px;
-}
-
-.main__experience__date {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 9px;
-    height: 18px;
-}
-
-.main__experience__description {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 11px;
-    height: 18px;
-    width: 333px;
-}
-
-.main__experience {
-    margin-bottom: 30px;
+.aside__knowledge>p {
+    font-size: 8px;
+    gap: 2px;
 }
