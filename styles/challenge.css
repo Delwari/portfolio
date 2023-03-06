@@ -1,107 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-ol, ul {
+ol,
+ul {
     list-style: none;
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #000000;
-    border-top: 5px solid black;
-    margin: 10px 95px 0 48px;
-    width: 595px;
-    height: 842px;
+    border-top: 0.5rem solid black;
+    border-bottom: 0.5rem solid black;
+    margin: 1rem 4.8rem 1.0rem 4.8rem;
+    width: auto;
+    height: auto;
 }
 
 header {
     display: flex;
-    padding-top: 33px;
-    margin: 37px 95px 0 48px;
+    padding-top: 3.3rem;
+    margin: 3.7rem 4.8rem 0 4.8rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__tittles {
-    line-height: 28px;
+    line-height: 2.8rem;
 }
 
 .header__tittles__tittle {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .header__tittles__subtittle {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
 img {
-    width: 78px;
-    height: 78px;
+    width: 7.8rem;
+    height: 7.8rem;
     border-radius: 100%;
+    margin-right: 6rem;
 }
 
 main {
     display: flex;
-    margin: 37px 48px 0 48px;
+    margin: 3.7rem 4.8rem 3.7rem 4.8rem;
+    justify-content: space-between;
 }
 
 .experience {
-    display: flex;
-    flex-direction: column;
-    margin-right: 24px;
-    gap: 16px;
+    margin-right: 2.4rem;
+    width: 33.3rem;
 }
 
 .experience__tittle {
-    font-size: 8px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #455473;
     font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
 }
 
 .experience__subtittle {
     font-weight: 700;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 .experience__company {
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
     font-weight: 400;
 }
 
 .experience__date {
-    font-size: 9px;
-    line-height: 18px;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
     font-weight: 400;
 }
 
 .experience__description {
-    font-size: 11px;
-    width: 333px;
-    line-height: 18px;
+    font-size: 1.1rem;
+
+    line-height: 1.8rem;
     font-weight: 400;
 }
 
 .aside__info {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.6rem;
     font-weight: 400;
+    width: 14rem;
+    margin-right: 1rem;
 }
 
 .aside__contact__list {
     font-weight: 400;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 li {
-    margin-bottom: 2px;
+    margin-bottom: 0.2rem;
 }
 
 li:last-child {
@@ -110,75 +125,105 @@ li:last-child {
 
 .aside__knowledge__tittle {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #455473;
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 
 .aside__knowledge__list {
-    font-size: 11px;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
-.aside__knowledge__list > li {
-    margin-bottom: 2px;
-    line-height: 18px;
+.aside__knowledge__list>li {
+    margin-bottom: 0.2rem;
+    line-height: 1.8rem;
 }
 
-.aside__knowledge__list > li:last-child {
+.aside__knowledge__list>li:last-child {
     margin-bottom: 0;
 }
 
 .aside__tools__tittle {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #455473;
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 
 .aside__tools__itens {
     font-weight: 400;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 .aside__skills__tittle {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #455473;
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 
 .aside__skills_itens {
     font-weight: 400;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
 .aside__social__tittle {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #455473;
-    margin-bottom: 8px;
-}
-
-.aside__social__links {
-    
+    margin-bottom: 0.8rem;
 }
 
 .aside__social__link {
-    display: inline-block;
-    text-decoration: none;
+    display: block;
     color: #000000;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+/* @media screen and (max-width: 1001px) { */
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        margin: 1em 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.2rem;
+        margin: 0;
+    }
+
+    .header__tittles {
+        text-align: center;
+    }
+
+    img {
+        margin: 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .aside__info {
+        margin-top: 4rem;
+    }
 }
