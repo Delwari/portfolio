@@ -109,6 +109,15 @@ main {
     margin-right: 1rem;
 }
 
+.aside__contact__tittle {
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #455473;
+    margin-bottom: 0.8rem;
+}
+
 .aside__contact__list {
     font-weight: 400;
     font-size: 1.1rem;
@@ -225,5 +234,20 @@ li:last-child {
 
     .aside__info {
         margin-top: 4rem;
+    }
+
+    .experience {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    html {
+        font-size: 13px;
+    }
+
+    .experience {
+        width: auto;
     }
 }
