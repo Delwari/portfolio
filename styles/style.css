@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #22D4FD;
+
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Krona One', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +17,8 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header {
@@ -22,11 +31,11 @@ header {
 }
 
 .navagation > a {
-    color:#22D4FD;
+    color:var(--tertiary-color);
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .navagation__challenge {
@@ -48,17 +57,17 @@ header {
 }
 
 .master__title {
-    font-family: 'Krona One', sans-serif;
-    font-size: 36px;
+    font-family: var(--secondary-font);
+    font-size: 2.25rem;
 }
 
 .title__strong {
-    color: #22D4FD;
+    color: var(--tertiary-color);
 }
 
 .master__text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -71,8 +80,8 @@ header {
 }
 
 .master__links__subtitle {
-    font-family: 'Krona One', sans-serif;
-    font-size: 24px;
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -81,13 +90,13 @@ header {
     gap: 16px;
     justify-content: center;
     align-items: center;
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--tertiary-color);
     border-radius: 8px;
     width: 378px;
     padding: 21.5px 0;
@@ -120,14 +129,20 @@ header {
 }
 
 footer {
-    background-color: #22D4FD;
+    background-color: var(--tertiary-color);
 }
 
 footer > p {
-    color: #000000;
-    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 24px;
+    padding: 1.5rem;
+}
+
+/* about */
+
+.about__text {
+    width: 574px;
 }
