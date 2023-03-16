@@ -158,8 +158,16 @@ footer > p {
     nav {
         justify-content: center;
     }
+    
+    
+
     .master {
         flex-direction: column-reverse;
+        padding: 5%;
+        margin: 7% 0 10%;
     }
 
+    .master__content {
+        width: auto;
+    }
 }
